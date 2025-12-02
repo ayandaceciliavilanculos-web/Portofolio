@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Digital - Ayanda Vilanculos</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #1a1a1a;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #00aaff;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .about, .projects, .skills, .education, .contact {
+            background-color: #fff;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .projects table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .projects th, .projects td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .projects th {
+            background-color: #00aaff;
+            color: white;
+        }
+
+        ul.skills-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.skills-list li {
+            background-color: #e0f0ff;
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 8px 12px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        /* Responsividade */
+        @media(max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .projects table, .projects th, .projects td {
+                display: block;
+                width: 100%;
+            }
+
+            .projects th {
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ayanda Cecilia Vilanculos</h1>
+        <p>Técnica de Informática | Suporte Técnico | Desenvolvedora</p>
+        <nav>
+            <a href="#about">Sobre Mim</a>
+            <a href="#projects">Projetos</a>
+            <a href="#skills">Competências</a>
+            <a href="#education">Formação</a>
+            <a href="#contact">Contactos</a>
+        </nav>
+    </header>
+
+    <section id="about" class="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou uma profissional da área de Informática com experiência em manutenção de sistemas, suporte técnico e desenvolvimento de soluções digitais. Tenho como objetivo aplicar o meu conhecimento para otimizar processos e oferecer soluções tecnológicas eficientes e seguras.</p>
+        <p>Idiomas: Português (nativo), Inglês (intermediário)</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projetos</h2>
+        <table>
+            <tr>
+                <th>Projeto</th>
+                <th>Descrição</th>
+                <th>Tecnologias</th>
+            </tr>
+            <tr>
+                <td>Sistema de Gestão de Stock</td>
+                <td>Aplicação desktop para controlo de inventário</td>
+                <td>Java, MySQL</td>
+            </tr>
+            <tr>
+                <td>Site de Portfólio</td>
+                <td>Página pessoal profissional</td>
+                <td>HTML, CSS, JavaScript</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Competências</h2>
+        <ul class="skills-list">
+            <li>Java</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>MySQL</li>
+            <li>Redes Locais</li>
+            <li>Suporte Técnico</li>
+            <li>Trabalho em Equipa</li>
+        </ul>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Formação</h2>
+        <p>Curso Técnico de Informática — Escola Secundária de Maputo, 2024</p>
+        <p>Certificação em Redes e Segurança — Instituto Tecnológico de Maputo, 2025</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contactos</h2>
+        <p>Email: <a href="mailto:ayanda.tech@example.com">ayanda.tech@example.com</a></p>
+        <p>Telefone: +258 84 123 4567</p>
+        <p>Localização: Maputo, Moçambique</p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/ayanda</a> | GitHub: <a href="#">github.com/ayanda</a></p>
+    </section>
+
+    <footer>
+        &copy; 2025 Ayanda Cecilia Vilanculos. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
