@@ -21,7 +21,6 @@ Ele apresenta:
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **Bootstrap ou Tailwind** (se usaste)
 - **Git & GitHub**
 
 
@@ -32,5 +31,4 @@ Ele apresenta:
 - Lista dos meus projectos  
 - Formulário funcional com validação  
 - Links para redes sociais  
-- Animações e efeitos visuais (opcional)
 
