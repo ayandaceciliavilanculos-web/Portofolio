@@ -1,5 +1,5 @@
 "# Portofolio" 
-🌐 Portfólio Pessoal
+ Portfólio Pessoal
 
 Este é o meu portfólio pessoal, desenvolvido para apresentar quem sou, as minhas competências, os meus projectos e formas de contacto. O objetivo é criar uma presença digital profissional e moderna.
 
